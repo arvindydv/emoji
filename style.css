@@ -24,13 +24,14 @@ body{
 
 .emojee-container div{
     width: 15%;
-    border: 1px solid rgb(12, 12, 58);
+    /* border: 1px solid rgb(12, 12, 58); */
     border-radius: 4px;
     margin-bottom: 20px;
     padding: 15px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    box-shadow: 4px 22px 92px 0px rgb(87, 87, 167)
 }
 .des{
     font-weight: bold;
@@ -50,4 +51,5 @@ input {
     background: transparent;
     outline: none;
     width: 50%;
+
 }
