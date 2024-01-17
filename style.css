@@ -23,7 +23,7 @@ body{
 }
 
 .emojee-container div{
-    width: 15%;
+    width: 18%;
     /* border: 1px solid rgb(12, 12, 58); */
     border-radius: 4px;
     margin-bottom: 20px;
@@ -35,14 +35,15 @@ body{
 }
 .des{
     font-weight: bold;
-    font-size: 18px;
+    /* font-size: 18px; */
     text-align: center;
-    margin: 10px;
+   
 }
 .cat{
-    font-size: 16px;
+    /* font-size: 1px; */
     font-weight: bold;
     text-align: center;
+    margin: 10px;
 }
 input {
     border: 1px solid rgb(36, 36, 83);

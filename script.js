@@ -10,8 +10,9 @@ document.addEventListener("DOMContentLoaded", ()=>{
 
     emojiDiv.innerHTML = `
     <h2> ${items.emoji} </h2>
+    <p class="cat"> ${items.aliases } </p>
     <p class="des"> ${items.description } </p>
-    <p class="cat"> ${items.category } </p>
+   
     `;
 
     emojeeContainer.appendChild(emojiDiv);
