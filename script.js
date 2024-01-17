@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
 
     emojiDiv.innerHTML = `
     <h2> ${items.emoji} </h2>
-     <p class="cat"> ${items.tags } </p>
+     <p class="cat"> ${items.category } </p>
     <p class="des"> ${items.description } </p>
    
     `;
